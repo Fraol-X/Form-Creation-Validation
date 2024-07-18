@@ -21,7 +21,7 @@ async function fetchUserData() {
     }
 
     catch (error) {
-        dataContainer.innerHTML = "Data failed to load";
+        dataContainer.innerHTML = "Failed to load user data";
     }
 
     }
